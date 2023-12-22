@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="new.css" />
+  <link rel="icon" href="step.jpg">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="./logo.png" alt="" class="img" width="200px">
+  </div>
+  <h3 class="add">Russey Keo, Phnom Penh</h3>
+  <hr class="line" size="5px" color="balck">
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col navbar navbar-expand-md navbar-dark bg-dark">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+          aria-expanded="false" aria-label="navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <div class="navbar-nav text-uppercase">
+            <!-- add the active class to the menu item of the current page -->
+            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="menu.html">Menu</a>
+            <a class="nav-link" href="new.html">Login</a>
+            <a class="nav-link" href="cart.html">Card</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <br>
+  <header>
+    <h1>Your Cart</h1>
+  </header>
+
+  <br>
+  <main>
+    <div class="items">
+      <div class="image">
+
+        <img src="1.jpg" alt="" />
+      </div>
+      <div class="middle-content">
+        <h2>CURRYWURST (GERMANY)</h2>
+        <p>
+          A simple yet delicious fast food staple from Berlin consisting of pork sausage
+          seasoned with curry ketchup typically served with french fries.
+        </p>
+      </div>
+      <div class="right-content">
+        <h6>Price: 12.99$</h6>
+        <button>4x</button>
+      </div>
+    </div>
+
+
+
+    <div class="items">
+      <div class="image">
+        <img src="3.jpg" alt="" />
+      </div>
+      <div class="middle-content">
+        <h2>PINTXOS (SPAIN)</h2>
+        <p>
+          A popular delicacy in Northern Spain, the Pintxos involves any ingredient (usually fish, meat or peppers)
+          skewered onto a small slice of bread.
+        </p>
+      </div>
+      <div class="right-content">
+        <h6>Price: 14.99$</h6>
+        <button>3x</button>
+      </div>
+    </div>
+
+
+
+    <div class="items">
+      <div class="image">
+        <img src="6.jpg" alt="" />
+      </div>
+      <div class="middle-content">
+        <h2>SCHNITZEL (GERMANY)</h2>
+        <p>
+          Not your average chicken nugget, the schnitzel (originating in Austria) is a thinned meat, fried and coated in
+          flour, beaten eggs and breadcrumbs, then fried again. Yum.
+        </p>
+      </div>
+      <div class="right-content">
+        <h6>Price: 16.99$</h6>
+        <button>5x</button>
+      </div>
+    </div>
+    <br>
+    <hr size="5px" color="balck">
+    <br>
+
+    <div class="items">
+
+      <div class="middle-content">
+        <h2></h2>
+        <p>
+
+        </p>
+      </div>
+      <div class="right-content">
+        <h6 >Total :
+          <script>
+            localStorage.setItem('sum',String(sum));
+          </script>
+
+        </h6>
+        <button>Comform</button>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
